@@ -19,6 +19,7 @@ public class MyRealm extends AuthorizingRealm{
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(
 			AuthenticationToken arg0) throws AuthenticationException {
+				system.out.println("-----------------------------");
 		return null;
 	}
 
